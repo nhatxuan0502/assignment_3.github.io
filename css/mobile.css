@@ -1,0 +1,132 @@
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 767px) {
+  #banner {
+    position: absolute;
+    top: 18%;
+    left: 32%;
+  }
+  #nav-bar {
+    display: none;
+  }
+  .navbar2 {
+    display: contents;
+  }
+  .navbar2 .nav-link {
+    border: 0;
+  }
+  /* Mục tiêu nghề nghiệp */
+  .col1 {
+    grid-column-end: 3;
+  }
+
+  .col2 {
+    grid-column-start: 1;
+    margin-left: 0;
+    padding-bottom: 40px;
+  }
+  #personal-info h1 {
+    padding-top: 10px;
+    margin-left: 20px;
+  }
+  #personal-info ul,
+  .icon-twitter {
+    padding-left: 20px;
+  }
+  /* JOB */
+  #job-info .container {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(8, auto);
+    row-gap: 10px;
+  }
+  h1 {
+    font-size: 200%;
+    padding-top: 30px;
+  }
+  .ic-toolbox,
+  .ic-pencil,
+  .ic-telescope,
+  .ic-mic,
+  .ic-tools-2 {
+    font-size: 350%;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  /* Chứng chỉ */
+
+  .ccdn {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .ccjv-1 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .ccdata {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-top: 20px;
+  }
+  .ccdn-info,
+  .ccjv-info,
+  .ccdata-info,
+  .ccdn-img,
+  .ccjv-img,
+  .ccdata-img {
+    border: none;
+  }
+
+  .ccdn-img,
+  .ccjv-img,
+  .ccdata-img {
+    width: 100%;
+    padding-bottom: 8px;
+  }
+  .ccjv-1 {
+    padding-left: 15px;
+    margin-top: 8px;
+  }
+
+  /* Dự án */
+  .personal-cv {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .pet-management {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .news-review {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  #year {
+    width: 15%;
+    text-align: center;
+  }
+  .icon-details {
+    padding-left: 15px;
+  }
+  .ms-md-0 {
+    margin-left: -170px;
+  }
+
+  /* Footer */
+  #footer span {
+    display: none;
+  }
+  .icon-facebook-circled,
+  .icon-linkedin-circled,
+  .icon-github-circled {
+    font-size: 300%;
+  }
+}

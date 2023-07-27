@@ -1,0 +1,65 @@
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  #banner {
+    position: absolute;
+    top: 29%;
+    left: 32%;
+  }
+  .nav-link {
+    padding: 20px;
+  }
+  /* Mục Tiêu Nghề Nghiệp */
+  .col1 {
+    padding: 5% 6% 15% 6%;
+  }
+  .col2 {
+    padding: 4% 3% 6% 3%;
+  }
+
+  #personal-info h1 {
+    margin-top: -15px;
+    padding-bottom: 35px;
+  }
+  #target h1,
+  #personal-info h1,
+  .experience h1,
+  .education h1,
+  .activity h1,
+  .hobby h1,
+  .language h1,
+  .skills h1 {
+    font-size: 200%;
+  }
+  /* Job-Info */
+  /* Học vấn */
+  .funix1 {
+    padding-top: 6px;
+  }
+  .funix1 p,
+  .hui-1 p,
+  .funix2 {
+    margin-bottom: 4px;
+  }
+  /* Hoạt động */
+  .z-club {
+    padding-bottom: 57px;
+  }
+  /* Sở thích */
+  .ic-megaphone {
+    margin-left: 10px;
+  }
+  .ic-strategy,
+  .ic-hotairballoon {
+    margin-left: 20px;
+  }
+  .ic-basket {
+    margin-left: 18px;
+  }
+  .musik p,
+  .ps-1 {
+    font-size: 75%;
+    padding-bottom: 7px;
+  }
+  .travel .ps-1 {
+    margin-left: 20px;
+  }
+}

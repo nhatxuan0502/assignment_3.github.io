@@ -1,0 +1,279 @@
+* {
+  margin: auto;
+  max-width: 1400px;
+  box-sizing: border-box;
+}
+/* header */
+.img-banner {
+  position: relative;
+}
+#banner {
+  position: absolute;
+  top: 30%;
+  left: 34%;
+}
+/* Navbar */
+.nav-link {
+  border: 1px solid gray;
+  /* padding: px; */
+}
+.navbar2 {
+  display: none;
+}
+#name {
+  position: relative;
+}
+.name-img {
+  position: absolute;
+  border-radius: 50%;
+  top: -45px;
+  left: 0;
+}
+/* Muc tieu nghe nghiep */
+.bg-grey {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr;
+  column-gap: 0px;
+}
+.col1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color: lightgray;
+  padding: 51px 50px;
+}
+.col1 .section-title {
+  padding-bottom: 35px;
+}
+/* Thông tin cá nhân */
+.col2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  padding: 35px 30px;
+}
+#personal-info {
+  background-color: gray;
+  width: 100%;
+}
+#personal-info h1 {
+  padding-top: 14px;
+  margin-left: 30px;
+}
+.icon-twitter {
+  padding-left: 30px;
+}
+#personal-info ul {
+  list-style-type: none;
+}
+.col2 .container {
+  margin-left: 10px;
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+#personal-info .info-content {
+  display: none;
+}
+/* Job-info  */
+#job-info .container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: center;
+  grid-auto-rows: 1fr;
+}
+.experience,
+.education,
+.activity,
+.hobby,
+.language,
+.skills {
+  border: 1px solid black;
+  width: 90%;
+  margin-top: 20px;
+}
+.asia-med,
+.mondoro,
+.funix2,
+.hui-2,
+.fpt-edu,
+.z-club {
+  list-style-type: none;
+  margin-left: -29px;
+  margin-bottom: 10px;
+}
+.experience h1,
+.education h1,
+.activity h1,
+.hobby h1,
+.language h1,
+.skills h1 {
+  margin-left: 0px;
+  padding-left: 20px;
+}
+.ic-toolbox,
+.ic-pencil,
+.ic-telescope,
+.ic-mic,
+.ic-tools-2 {
+  font-size: 150%;
+  margin-right: 0;
+  padding-right: 10px;
+}
+.content-detail {
+  display: none;
+}
+.view-more {
+  visibility: hidden;
+  border-radius: 25%;
+}
+/* Kinh nghiệm */
+#present {
+  background-color: rgb(17, 97, 99);
+  border-radius: 15%;
+}
+/* Học vấn */
+.funix2 {
+  padding-right: 30px;
+  margin-bottom: 20px;
+}
+.funix1 {
+  padding-top: 15px;
+}
+/* Hoạt động */
+.fpt {
+  padding-top: 15px;
+}
+.z-club {
+  padding-bottom: 33px;
+}
+/* Sở thích */
+.icon {
+  padding-bottom: 30px;
+  padding-top: 35px;
+}
+.ic-megaphone,
+.ic-strategy,
+.ic-hotairballoon,
+.ic-basket {
+  color: lightblue;
+  border: 1px solid lightblue;
+  border-radius: 50px;
+}
+.ic-megaphone {
+  margin-left: 18px;
+}
+.ic-strategy {
+  margin-left: 20px;
+}
+.ic-hotairballoon {
+  margin-left: 9px;
+}
+.ic-basket {
+  margin-left: 23px;
+  margin-right: 18px;
+}
+.musik p {
+  margin-left: 14px;
+}
+.game .ps-1 {
+  margin-left: 2px;
+}
+.travel .ps-1 {
+  margin-left: 5px;
+}
+.cook .ps-1 {
+  margin-left: 20px;
+}
+/* Ngôn ngữ */
+#eng {
+  padding-top: 17px;
+}
+.eng,
+.jp {
+  margin-bottom: 24px;
+}
+#eng1,
+#eng2,
+#jp1,
+#html1,
+#jv1,
+#jv2,
+#js1,
+#js2,
+#boot1 {
+  background-color: lightblue;
+  height: 5px;
+  margin-left: 2px;
+}
+#eng3,
+#jp2,
+#jp3,
+#html3,
+#html2,
+#jv3,
+#js3,
+#boot2,
+#boot3 {
+  background-color: lightgray;
+  height: 5px;
+  margin-left: 2px;
+}
+/* Kỹ năng */
+.html,
+.jv,
+.js,
+.boot {
+  padding-bottom: 5px;
+  margin-top: -15px;
+}
+/* Chứng chỉ */
+#certificate .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.ccdn-img,
+.ccjv-img,
+.ccdata-img {
+  width: 50%;
+}
+
+.ccdn,
+.ccjv-1 {
+  border-bottom: 1px solid #d6c08d;
+}
+.ccdn-info,
+.ccjv-info,
+.ccdata-info {
+  font-size: small;
+  border-right: 1px solid #d6c08d;
+}
+.ccdn li,
+.ccjv-1 li,
+.ccdata li {
+  list-style-type: none;
+}
+/* Dự án */
+#project .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+.pet-management,
+.news-review {
+  margin-left: 10px;
+}
+.pro,
+.pro-4 {
+  border: 1px solid lightgray;
+}
+#year {
+  background-color: lightseagreen;
+  border-radius: 20%;
+}
+/* Footer */
+
+.icon-facebook-circled,
+.icon-linkedin-circled,
+.icon-github-circled {
+  color: lightseagreen;
+}

@@ -1,0 +1,165 @@
+@media screen and (max-width: 992px) and (min-width: 767px) {
+  #banner {
+    position: absolute;
+    top: 25%;
+    left: 36%;
+  }
+  #banner h1 {
+    font-size: 170%;
+  }
+  /* mục tiêu nghề nghiệp */
+  .col1 {
+    padding: 6% 5% 6% 3%;
+  }
+  .col2 {
+    padding: 4% 5% 4% 3%;
+  }
+  #target h1 {
+    padding-top: 5px;
+  }
+  #personal-info h1 {
+    padding-top: 20px;
+    padding-bottom: 32px;
+  }
+  #target h1,
+  #personal-info h1,
+  .experience h1,
+  .activity h1,
+  .education h1,
+  .hobby h1,
+  .language h1,
+  .skills h1 {
+    font-size: 170%;
+  }
+  /* Job-info */
+  #job-info .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(7, auto);
+    grid-auto-rows: 1fr;
+  }
+  .ic-toolbox,
+  .ic-pencil,
+  .ic-telescope,
+  .ic-mic,
+  .ic-tools-2 {
+    font-size: 250%;
+    margin-top: 15px;
+    margin-right: 15px;
+  }
+  .experience h1,
+  .education h1,
+  .skills h1,
+  .hobby h1,
+  .language h1,
+  .activity h1 {
+    padding-top: 50px;
+  }
+  /* Kinh nghiệm */
+  .experience {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  .experience .view-more {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .experience .view-less {
+    padding-top: 170px;
+    padding-bottom: 50px;
+  }
+  /* Học vấn */
+  .education {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+  }
+  .education .view-more {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .education .view-less {
+    padding-top: 2px;
+    padding-bottom: 50px;
+  }
+  /* hoạt động */
+  .activity {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .z-club,
+  .funix1 span {
+    padding-bottom: 0;
+  }
+  /* sở thích */
+  .hobby {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 7;
+  }
+
+  /* ngôn ngữ */
+  .language {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 7;
+  }
+
+  /* kỹ năng */
+  .skills {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+  }
+  .skills .view-more {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .skills .view-less {
+    margin-top: 140px;
+    padding-bottom: 50px;
+  }
+  /* Chứng chỉ */
+  #certificate {
+    background-color: lightgrey;
+  }
+  .ccdn-info,
+  .ccdata-info,
+  .ccdn-img,
+  .ccdata-img {
+    border-right: 1px solid orange;
+  }
+  .ccdn-img,
+  .ccdata-img {
+    width: 100%;
+    padding-right: 10px;
+    padding-bottom: 8px;
+  }
+  .ccjv-1 {
+    padding-left: 15px;
+    margin-top: 8px;
+  }
+  .ccjv-img {
+    width: 140%;
+    border-right: none;
+    padding-bottom: 10px;
+  }
+  .ccjv-info {
+    border-right: none;
+  }
+  /* Dự án */
+  #project h1 {
+    padding-top: 20px;
+  }
+  .pro p {
+    font-size: 75%;
+  }
+}
